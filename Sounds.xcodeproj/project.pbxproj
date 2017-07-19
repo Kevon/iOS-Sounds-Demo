@@ -13,6 +13,11 @@
 		0A9D981A1D62A8CA0099BCF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D98181D62A8CA0099BCF3 /* Main.storyboard */; };
 		0A9D981C1D62A8CA0099BCF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D981B1D62A8CA0099BCF3 /* Assets.xcassets */; };
 		0A9D981F1D62A8CA0099BCF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D981D1D62A8CA0099BCF3 /* LaunchScreen.storyboard */; };
+		0A9D982B1D62B3830099BCF3 /* zach_stone_friday_night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D98271D62B3830099BCF3 /* zach_stone_friday_night.mp3 */; };
+		0A9D982C1D62B3830099BCF3 /* zach_stone_halfsies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D98281D62B3830099BCF3 /* zach_stone_halfsies.mp3 */; };
+		0A9D982D1D62B3830099BCF3 /* zach_stone_pay_me_back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D98291D62B3830099BCF3 /* zach_stone_pay_me_back.mp3 */; };
+		0A9D982E1D62B3830099BCF3 /* zach_stone_teenage_demographic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D982A1D62B3830099BCF3 /* zach_stone_teenage_demographic.mp3 */; };
+		0A9D98301D62C2E50099BCF3 /* lovecrimes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D982F1D62C2E50099BCF3 /* lovecrimes.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		0A9D981B1D62A8CA0099BCF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A9D981E1D62A8CA0099BCF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A9D98201D62A8CA0099BCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9D98271D62B3830099BCF3 /* zach_stone_friday_night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zach_stone_friday_night.mp3; path = ../../Desktop/Downloads/zs/zach_stone_friday_night.mp3; sourceTree = "<group>"; };
+		0A9D98281D62B3830099BCF3 /* zach_stone_halfsies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zach_stone_halfsies.mp3; path = ../../Desktop/Downloads/zs/zach_stone_halfsies.mp3; sourceTree = "<group>"; };
+		0A9D98291D62B3830099BCF3 /* zach_stone_pay_me_back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zach_stone_pay_me_back.mp3; path = ../../Desktop/Downloads/zs/zach_stone_pay_me_back.mp3; sourceTree = "<group>"; };
+		0A9D982A1D62B3830099BCF3 /* zach_stone_teenage_demographic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zach_stone_teenage_demographic.mp3; path = ../../Desktop/Downloads/zs/zach_stone_teenage_demographic.mp3; sourceTree = "<group>"; };
+		0A9D982F1D62C2E50099BCF3 /* lovecrimes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = lovecrimes.mp3; path = "../../Desktop/Downloads/Frank Ocean - nostalgia, ULTRA/lovecrimes.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 		0A9D980E1D62A8C90099BCF3 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				0A9D98261D62B2C00099BCF3 /* Sounds */,
 				0A9D98121D62A8C90099BCF3 /* AppDelegate.h */,
 				0A9D98131D62A8C90099BCF3 /* AppDelegate.m */,
 				0A9D98151D62A8C90099BCF3 /* ViewController.h */,
@@ -77,6 +88,18 @@
 				0A9D98101D62A8C90099BCF3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A9D98261D62B2C00099BCF3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0A9D98271D62B3830099BCF3 /* zach_stone_friday_night.mp3 */,
+				0A9D98281D62B3830099BCF3 /* zach_stone_halfsies.mp3 */,
+				0A9D98291D62B3830099BCF3 /* zach_stone_pay_me_back.mp3 */,
+				0A9D982F1D62C2E50099BCF3 /* lovecrimes.mp3 */,
+				0A9D982A1D62B3830099BCF3 /* zach_stone_teenage_demographic.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +162,12 @@
 			files = (
 				0A9D981F1D62A8CA0099BCF3 /* LaunchScreen.storyboard in Resources */,
 				0A9D981C1D62A8CA0099BCF3 /* Assets.xcassets in Resources */,
+				0A9D982D1D62B3830099BCF3 /* zach_stone_pay_me_back.mp3 in Resources */,
+				0A9D982E1D62B3830099BCF3 /* zach_stone_teenage_demographic.mp3 in Resources */,
+				0A9D982C1D62B3830099BCF3 /* zach_stone_halfsies.mp3 in Resources */,
+				0A9D982B1D62B3830099BCF3 /* zach_stone_friday_night.mp3 in Resources */,
 				0A9D981A1D62A8CA0099BCF3 /* Main.storyboard in Resources */,
+				0A9D98301D62C2E50099BCF3 /* lovecrimes.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
